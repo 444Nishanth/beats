@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:8.4.0-bookworm
 
 # Copy the Redis configuration file
 COPY redis.conf /usr/local/etc/redis/redis.conf
